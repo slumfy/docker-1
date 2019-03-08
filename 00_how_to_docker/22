@@ -1,0 +1,4 @@
+docker swarm join-token worker
+eval $(docker-machine env Aiur)
+docker swarm join --token SWMTKN-1-0iy1a150y9185q3n6xpwnvrxy6s4ycu6m7ay5s2t433syjiy5y-6u7y3fezv9rpq5ysu82dreatt 192.168.99.101:2377
+eval $(docker-machine env Char)

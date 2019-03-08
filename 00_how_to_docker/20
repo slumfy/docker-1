@@ -1,0 +1,2 @@
+IP="$(./02)"
+docker swarm init --advertise-addr $IP
